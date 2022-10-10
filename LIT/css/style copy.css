@@ -1,0 +1,200 @@
+
+
+.banner {
+  display: inline;
+}
+
+.banner img {
+  height: 400px;
+  width: 100%;
+}
+
+span {
+  cursor: pointer;
+}
+
+
+.blue-footer {
+  background: #27aae1;
+  color: white;
+  height: 245px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.footer-courses {
+  text-align: left;
+}
+
+.footer-courses ul {
+  margin-left: -20px;
+}
+
+.footer-courses  h3 {
+  font-weight: 100;
+  font-size: 19px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-courses  li {
+  font-size: 1em;
+}
+
+.footer-logo {
+  padding-top: 50%;
+  vertical-align: bottom;
+}
+
+.footer-social ul { 
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 30px;
+}
+
+
+.footer-social li {
+  display: inline-flex;
+  height: 22px;
+  width: 30px;
+  color: #27aae1;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: space-around;
+  padding-top: 8px;
+  box-sizing: 30px;
+}
+
+
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  height: 245px;
+  flex: 1;
+}
+
+.content.small {
+  flex: 2;
+}
+
+.content.big {
+  flex: 3;
+}
+
+/* color styles [ignore] */
+.content {
+  font-family: arial;
+  color: white;
+  text-align: center;
+}
+
+.content:nth-child(1) {
+  background: none;
+}
+
+.content:nth-child(2) {
+  background: none;
+}
+
+.content:nth-child(3) {
+  background: none;
+}
+
+.content:nth-child(4) {
+  background: none;
+}
+
+.container-store {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-store {
+  flex: 1;
+  color: white;
+  text-align: center;
+}
+
+.content-store p {
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.content.small-store {
+  align-items: center;
+  flex: 2;
+}
+
+.content-store:nth-child(1) {
+  background: none;
+}
+
+.content-store:nth-child(2) {
+  background: none;
+}
+
+.store {
+  width: 100%;
+  display: block;
+  align-items: center;
+  background: none;
+
+}
+
+
+
+
+.black-footer {
+  background: black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black-footer ul {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.black-footer li {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.black-footer a {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+
